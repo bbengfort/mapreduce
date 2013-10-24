@@ -1,0 +1,8 @@
+PyYAML==3.10
+dumbo==0.21.36
+nltk==2.0.4
+numpy==1.7.1
+requests==2.0.0
+typedbytes==0.3.8
+unicodecsv==0.9.4
+wsgiref==0.1.2
