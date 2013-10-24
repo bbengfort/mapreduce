@@ -34,3 +34,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Mac Stuff
+.DS_Store
+
+# Output files
+output.txt
