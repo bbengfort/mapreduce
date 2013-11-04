@@ -13,8 +13,6 @@ class Mapper(object):
         else:
             self._stopwords = None
 
-        self.lemmatizer = WordNetLemmatizer()
-
     def __call__(self, key, value):
         pid, name = value.split('\t')[:2]
         yield self.exclude(token for token in self.tokenize(name)), pid
